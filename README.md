@@ -4,10 +4,10 @@
 
 Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estimate their USD value, and send buy/sell notifications to Telegram. A React administration dashboard shows worker status, token settings, and recent events. This application monitors activity; it does not execute trades or manage wallets or funds.
 
-[![CI](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml)
+[![CI](https://github.com/arbincept/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/arbincept/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Source / Star](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
+[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Source / Star](https://github.com/arbincept/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
 
 ![DEX Swap Tracker & Telegram Bot — DEX swap monitoring & Telegram alerts, by Lukecele](docs/assets/social-card.png)
 
@@ -60,7 +60,7 @@ Token: Example Token (EXAMPLE)
 Use **Node.js 22+ and npm** (CI uses Node 22; local verification used Node 24). The committed npm lockfile is the dependency source of truth.
 
 ```bash
-git clone https://github.com/Lukecele/Telegram-bsc-buy-sell-bot.git
+git clone https://github.com/arbincept/Telegram-bsc-buy-sell-bot.git
 cd Telegram-bsc-buy-sell-bot
 npm ci
 cp .env.example .env
@@ -128,4 +128,4 @@ With a Telegram token configured, production status requests can register a Tele
 
 Built by **[Luca Celebrano (@Lukecele)](https://github.com/Lukecele)**, founder and sole member of arbincept.
 
-If this project is useful, [star the repository](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot) and [follow Lukecele](https://github.com/Lukecele) for more projects. See [contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), and the [MIT license](LICENSE).
+If this project is useful, [star the repository](https://github.com/arbincept/Telegram-bsc-buy-sell-bot) and [follow Lukecele](https://github.com/Lukecele) for more projects. See [contributing](CONTRIBUTING.md), [security reporting](SECURITY.md), and the [MIT license](LICENSE).
