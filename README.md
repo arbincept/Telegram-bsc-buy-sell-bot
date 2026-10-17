@@ -6,6 +6,7 @@ Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estima
 
 [![CI](https://github.com/arbincept/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/arbincept/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status: 100% Free & Open Source](https://img.shields.io/badge/Status-100%25%20Free%20%26%20Open%20Source-gold)](LICENSE)
 
 [Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Source / Star](https://github.com/arbincept/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
 
