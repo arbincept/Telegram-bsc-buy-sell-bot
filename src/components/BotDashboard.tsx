@@ -355,16 +355,24 @@ export default function BotDashboard() {
         </div>
 
         {/* Open-Source Telemetry & Non-Custodial Disclaimer */}
-        <div className="mt-8 pt-6 border-t border-zinc-800 text-center text-xs text-zinc-500 max-w-2xl mx-auto">
+        <div className="mt-8 pt-6 border-t border-zinc-800 text-center text-xs text-zinc-500 max-w-2xl mx-auto space-y-2">
+          <div className="flex justify-center gap-2 flex-wrap items-center">
+            <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-semibold">
+              {isEn ? "100% Free & Open-Source" : "100% Gratuito & No-Profit"}
+            </span>
+            <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-semibold">
+              MIT License
+            </span>
+          </div>
           <p className="leading-relaxed">
             {isEn
-              ? "Open-source on-chain swap telemetry and event notification dashboard (MIT License). Connects to public EVM RPCs and DexScreener for read-only market monitoring. Does not execute trades, manage funds, or provide financial advice."
-              : "Strumento open-source di telemetria e notifiche on-chain (Licenza MIT). Connesso a nodi RPC EVM pubblici e DexScreener per monitoraggio di mercato in sola lettura. Non esegue trade, non gestisce fondi e non fornisce consulenza finanziaria."}
+              ? "Open-source on-chain swap telemetry and event notification dashboard (MIT License). Connects to public EVM RPCs and DexScreener for read-only market monitoring. Free to copy, study, and reuse. Does not execute trades, manage funds, or provide financial advice."
+              : "Strumento open-source di telemetria e notifiche on-chain (Licenza MIT). Connesso a nodi RPC EVM pubblici e DexScreener per monitoraggio di mercato in sola lettura. 100% gratuito, libero da copiare, studiare e riutilizzare. Non esegue trade, non gestisce fondi e non fornisce consulenza finanziaria."}
           </p>
           <div className="mt-2 flex justify-center gap-3 text-zinc-400">
-            <a href="https://github.com/Lukecele/Telegram-bsc-buy-sell-bot" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">GitHub (MIT)</a>
+            <a href="https://github.com/arbincept/Telegram-bsc-buy-sell-bot" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition font-mono">GitHub Repository (MIT)</a>
             <span>•</span>
-            <a href="https://arbitrage-inc.exchange/terms-of-service" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">Terms</a>
+            <a href="https://github.com/Lukecele" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">@Lukecele</a>
           </div>
         </div>
       </div>
