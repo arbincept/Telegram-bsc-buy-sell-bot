@@ -8,7 +8,10 @@ Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estima
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status: 100% Free & Open Source](https://img.shields.io/badge/Status-100%25%20Free%20%26%20Open%20Source-gold)](LICENSE)
 
-[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Source / Star](https://github.com/arbincept/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
+> [!TIP]
+> **Using this DEX Tracker & Telegram Bot?** If you track swaps with this tool or clone it for your project, please leave a ⭐ **Star** on GitHub (top right) to support open-source DeFi monitoring!
+
+[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Follow Lukecele](https://github.com/Lukecele)
 
 ![DEX Swap Tracker & Telegram Bot — DEX swap monitoring & Telegram alerts, by Lukecele](docs/assets/social-card.png)
 

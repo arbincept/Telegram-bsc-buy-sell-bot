@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AppConfig, Trade } from "../types";
 import { 
   Play, Square, RefreshCcw, Activity, AlertCircle, 
-  CheckCircle2, Settings, ExternalLink, ArrowDownRight, ArrowUpRight 
+  CheckCircle2, Settings, ExternalLink, ArrowDownRight, ArrowUpRight, Star 
 } from "lucide-react";
 
 export default function BotDashboard() {
@@ -152,6 +152,18 @@ export default function BotDashboard() {
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
+            {/* Star on GitHub */}
+            <a
+              href="https://github.com/arbincept/Telegram-bsc-buy-sell-bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 hover:text-amber-300 text-sm font-semibold transition cursor-pointer shadow-sm"
+              title={isEn ? "Star on GitHub" : "Stella su GitHub"}
+            >
+              <Star size={15} className="fill-amber-400 text-amber-400" />
+              <span>{isEn ? "Star on GitHub" : "Stella"}</span>
+            </a>
+
             {/* Bilingual Switcher Toggle */}
             <button
               onClick={toggleLanguage}
