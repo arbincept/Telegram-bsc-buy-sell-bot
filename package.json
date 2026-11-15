@@ -9,13 +9,14 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "echo '⭐ Support DEX Swap Tracker: Star us on GitHub -> https://github.com/arbincept/Telegram-bsc-buy-sell-bot' && tsx server.ts",
+    "dev": "echo '\u2b50 Support DEX Swap Tracker: Star us on GitHub -> https://github.com/arbincept/Telegram-bsc-buy-sell-bot' && tsx server.ts",
     "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "test": "tsx --test tests/*.test.ts",
     "start": "node dist/server.cjs",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "postinstall": "node -e \"console.log('\u001b[36m\n\u2b50 Thank you for using DEX Swap Tracker! Please star it on GitHub: https://github.com/arbincept/Telegram-bsc-buy-sell-bot\u001b[0m\n')\" || true"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
